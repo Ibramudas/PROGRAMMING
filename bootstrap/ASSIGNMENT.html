@@ -4,9 +4,26 @@
         <meta charset utf="8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            a::hover{color: grey;}
+            header nav ul{
+                padding:0px;
+                justify-content: space-between;
+            }
+        </style>
     </head>
     <body>
         <div class="container-fluid bg-success">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="home.html">Contact</a></li>
+                        <li><a href="home.html">Support </a></li>
+                        <li><a href="home.html">Reviews</a></li>
+                    </ul>
+                </nav>
+            </header>
             <h1 style="color:orange;">MY BIOGRAPHY</h1>
             <p> this page is created to tell people about my hobbies</p>
             </div>
@@ -15,14 +32,14 @@
                     <h3>PERSONAL BIO</h3>
                 </div>
             </div>
-            <div class="container bg-secondary">
+            <div class="container-fluid bg-secondary">
                 <ul>
                     <li>My name is Mudasiru Ibrahim and i am from Ogun state based in Nigeria. I am from a family of
                         6 children and i am the eldest among them. My Dad is an Electrical engineer while my mum works in a school as a teacher.
                     </li>
                 </ul>
             </div>
-            <div class="container bg-dark">
+            <div class="container-fluid bg-dark">
                 <code>MY HOBBIES</code>
                 <ul>
                     <li style="color:white;">Coding: This has been one of my favourite hobies simce whne i was in grade 10. I had even learn some basic Python programming And hacking my self</li>
@@ -30,12 +47,14 @@
                     <li style="color:white;">Studying: This has been my favourite hobby from when i was in kindergarten</li>
                 </ul>
             </div>
-            <footer style="color:white; background: linear-gradient(to right black grey); text-align: center;">
+            <div class="container-fluid bg-success">
+            <footer style="color:white;">
                 <p>Subcribe to our news letter</p>
                 <form>
                     <label>Name</label>
-                    <input type="text" id="name"><br><br>
+                    <input type="text" id="name" placeholder="Enter your name"><br><br>
                     <label>Gmail</label>
-                    <input type="email" id="email"><br><br>
+                    <input type="email" id="email" placeholder="Enter your gmail"><br><br>
                     <buttton>Submit</buttton> 
             </footer>
+            </div>
