@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset utf="8">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    </head>
+    <body>
+        <div class="container-fluid bg-dark">
+        <h3>Welcome to Ibramudas website</h3><nav class="navbar-expand-xiliglmdlsm"><pre style="font-weight: bolder; font-size: 30px;"><a href="home.html">Home</a>  <a href="home.html">About us</a>  <a href="home.html">Contact us</a>  <a href="home.html">Support us</a>
+        </nav>
+        </div>
+        <p>Our company is created with the sole purpose of making booking of flight transactions easy and very comfortable 
+        for people from deferent countries
+        </p>
+        <div class="card"style="width:18rem;">
+            <img class="card-img-top" src="Sunflowers.jpg" alt="flower-image">
+            <div class="card-body">
+            <h5 class="card-title">Welcome</h5>
+            <p class="card-text">Welcome to your profile page in Ibramudas website</p>
+            <a href="r" class="btn btn-warning">See your Profile</a>
+            </div>
+</div>
+        </div>"
+    </body>
+</html>
